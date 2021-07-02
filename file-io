@@ -1,0 +1,31 @@
+#opening in read mode
+
+with open('sam.txt','r') as f:
+  #printing the whole content
+    f = f.read()
+    print(f)
+    
+    #printing only one line
+    f = f.readline()
+    print(f)
+ 
+ #opening in write mode
+
+with open('sam.txt','w') as f:
+  #writing the whole content
+    f = f.write('this is sam.txt')
+    
+    
+    
+ 
+ 
+ #opening in appendmode
+
+with open('sam.txt','a') as f:
+#to add changes at the end of document
+  #printing the whole content
+    f = f.write('python is best')
+    
+    
+ 
+    
